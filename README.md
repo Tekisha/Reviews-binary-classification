@@ -64,5 +64,24 @@ After training the classifier, you can use it to predict the sentiment of new re
 - `.gitignore`: File to specify which files and directories to ignore in version control.
 - `sentiment_model.joblib`: Serialized trained classifier model.
 
+## Result
+
+```
+Review: This movie was fantastic, I absolutely loved it!
+Predicted Sentiment: pos
+
+Review: The book was really boring, I couldn't finish it.
+Predicted Sentiment: neg
+
+Review: I'm not sure how I feel about this film, it had its moments but overall it was just okay.
+Predicted Sentiment: neg
+
+Review: Terrible movie, waste of time and money.
+Predicted Sentiment: neg
+
+Review: The book was amazing, I couldn't put it down until I finished it.
+Predicted Sentiment: pos
+```
+
 ## Author
 Teodor Vidaković - [GitHub](https://github.com/Tekisha)
