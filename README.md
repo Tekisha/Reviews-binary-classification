@@ -48,3 +48,21 @@ This project demonstrates sentiment analysis using a Naive Bayes classifier trai
     ```
     python predict.py
     ```
+
+## Model Accuracy
+The accuracy of the trained classifier on the test data is approximately 96.58%.
+
+## Predicting Sentiment for New Reviews
+After training the classifier, you can use it to predict the sentiment of new reviews by providing the text of the review. Update the **new_reviews** list in the `predict.py` script with the new reviews you want to predict sentiment for, and run the script.
+
+## Files
+- `preprocess.py`: Preprocessing functions for tokenization and stemming.
+- `train_model.py`: Class definition for the Naive Bayes classifier.
+- `predict.py`: Script for predicting sentiment for new reviews.
+- `requirements.txt`: List of required dependencies.
+- `README.md`: This README file.
+- `.gitignore`: File to specify which files and directories to ignore in version control.
+- `sentiment_model.joblib`: Serialized trained classifier model.
+
+## Author
+Teodor Vidaković - [GitHub](https://github.com/Tekisha)
